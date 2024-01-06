@@ -2,7 +2,7 @@
 
 ## Training Diffusion model
 
-1. to train diffusion model for next frame prediction, change the following variable in  `Future-Frame-Prediction/src/mcvd/train.sh` file.
+1. To train diffusion model for next frame prediction, change the following variable in  `Future-Frame-Prediction/src/mcvd/train.sh` file.
 	`data`: should contain train, validation and hidden data folders
 	`exp`: output folder to save result
 	change `CUDA_VISIBLE_DEVICES=0` argument if training on multi GPU and change batch size in file pointed by `config`.
